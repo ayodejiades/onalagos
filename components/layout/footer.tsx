@@ -101,23 +101,9 @@ export function Footer() {
               <a
                 href="#"
                 className="w-9 h-9 rounded-full bg-gray-800 hover:bg-gray-700 flex items-center justify-center transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook className="w-4 h-4" />
-              </a>
-              <a
-                href="#"
-                className="w-9 h-9 rounded-full bg-gray-800 hover:bg-gray-700 flex items-center justify-center transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-4 h-4" />
-              </a>
-              <a
-                href="#"
-                className="w-9 h-9 rounded-full bg-gray-800 hover:bg-gray-700 flex items-center justify-center transition-colors"
-                aria-label="YouTube"
-              >
-                <Youtube className="w-4 h-4" />
               </a>
             </div>
           </div>
@@ -216,7 +202,7 @@ export function Footer() {
               </a>
               <p className="flex items-center gap-2 text-sm text-gray-400">
                 <MapPin className="w-4 h-4 shrink-0" />
-                Lagos, Nigeria
+                6 Freedom Road, Apapa
               </p>
               <p className="text-xs text-gray-500 mt-1">Support: Mon-Fri 8AM-6PM WAT</p>
             </div>
@@ -229,26 +215,6 @@ export function Footer() {
         <div className="max-w-6xl mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-gray-500">© 2025 Ọna. All rights reserved.</p>
-
-            <p className="text-sm text-gray-500 flex items-center gap-1">
-              Made with <span className="text-red-500">❤️</span> in Lagos
-            </p>
-
-            {/* Trust Badges */}
-            <div className="flex items-center gap-4">
-              <div className="flex items-center gap-1.5 text-xs text-gray-500">
-                <Shield className="w-3.5 h-3.5 text-success" />
-                Secure
-              </div>
-              <div className="flex items-center gap-1.5 text-xs text-gray-500">
-                <CheckCircle2 className="w-3.5 h-3.5 text-success" />
-                Verified Routes
-              </div>
-              <div className="flex items-center gap-1.5 text-xs text-gray-500">
-                <Users className="w-3.5 h-3.5 text-success" />
-                5000+ Users
-              </div>
-            </div>
           </div>
         </div>
       </div>
